@@ -22,7 +22,7 @@ export class PostsService {
           return {
             title: post.title,
             content: post.content,
-            id: post._id
+            id: post.id
           };
         });
       }))
